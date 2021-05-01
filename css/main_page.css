@@ -1,0 +1,24 @@
+
+/* .column { */
+  /* float: left;
+  width: 50%; */
+  /* position: relative;
+  left : 30%;
+  border: 5% solid black;
+  padding: 10%;
+  margin: 10%;
+} */
+
+/* Clear floats after the columns */
+/* .row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+ */
+ .table{
+   border: 0% solid black;
+   margin-left: 0px;
+ }
+
+
