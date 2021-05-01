@@ -6,7 +6,6 @@ It also generates reports of the following:
 * List of defaulters
 
 Technology used : MySQL, PHP, HTML5, CSS3, Bootstrap 
-deals with all kind of student details, academic related reports, college details, course details, curriculum, batch details and other resource related …
 
 ### Home Page
 
