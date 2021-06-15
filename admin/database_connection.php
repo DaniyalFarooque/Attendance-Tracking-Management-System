@@ -2,7 +2,6 @@
 
 	//database_connection.php
 
-	use Attendance-Tracking-Management-System\
 	// connect database
 	
 	// Development Database Connection
@@ -10,15 +9,14 @@
 	// $db = "attendance";
 	// $user = "root";
 	// $pass = "";
-	$base_url = "http://localhost:80/Attendance-Tracking-Management-System/";
-	
 	
 	$host = "remotemysql.com";
 	$db = "YBnZN6PgeQ";
 	$user = "YBnZN6PgeQ";
 	$pass = "6aIbX19xmw";
+	
 	$connect = new PDO("mysql:host=$host;dbname=$db",$user,$pass);
-	// $base_url = "https://daniyal-atms.herokuapp.com/";
+	$base_url = $_SERVER['DOCUMENT_ROOT'];
 
 	// count number of total rows
 	function get_total_records($connect, $table_name)
