@@ -8,6 +8,7 @@ It also generates reports of the following:
 Technology used : MySQL, PHP, HTML5, CSS3, Bootstrap 
 
 ### Home Page
+![home](https://user-images.githubusercontent.com/56557002/122030265-409d6e80-cdeb-11eb-8902-8e1120dffdd7.png)
 
 ### Login Pages
 
