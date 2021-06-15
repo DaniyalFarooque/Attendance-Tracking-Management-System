@@ -6,8 +6,6 @@
 $connect = new PDO("mysql:host=localhost;dbname=attendance","root","");
 
 $base_url = "http://localhost:80/Attendance-Tracking-Management-System/";
-// $base_url = "http://localhost/tutorial/student-attendance-system-in-php-using-ajax/";
-
 
 // count number of total rows
 function get_total_records($connect, $table_name)
