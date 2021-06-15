@@ -10,7 +10,7 @@
 	// $db = "attendance";
 	// $user = "root";
 	// $pass = "";
-	// $base_url = "http://localhost:80/Attendance-Tracking-Management-System/";
+	$base_url = "http://localhost:80/Attendance-Tracking-Management-System/";
 	
 	
 	$host = "remotemysql.com";
@@ -18,7 +18,7 @@
 	$user = "YBnZN6PgeQ";
 	$pass = "6aIbX19xmw";
 	$connect = new PDO("mysql:host=$host;dbname=$db",$user,$pass);
-	$base_url = "https://daniyal-atms.herokuapp.com/";
+	// $base_url = "https://daniyal-atms.herokuapp.com/";
 
 	// count number of total rows
 	function get_total_records($connect, $table_name)
