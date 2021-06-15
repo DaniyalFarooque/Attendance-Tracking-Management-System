@@ -5,7 +5,7 @@
 // connect database
 $connect = new PDO("mysql:host=localhost;dbname=attendance","root","");
 
-$base_url = "http://localhost:8085/project1/";
+$base_url = "http://localhost:80/Attendance-Tracking-Management-System/";
 // $base_url = "http://localhost/tutorial/student-attendance-system-in-php-using-ajax/";
 
 
